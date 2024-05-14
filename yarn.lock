@@ -39,10 +39,10 @@
     protobufjs "^7.0.0"
     yargs "^16.2.0"
 
-"@opensearch-project/opensearch@^2.2.1":
-  version "2.2.1"
-  resolved "https://registry.yarnpkg.com/@opensearch-project/opensearch/-/opensearch-2.2.1.tgz#a400203afa6512ef73945663163a404763a10f5a"
-  integrity sha512-8zfQX1acL9eWG+ohIc9nJVT9LSqXCdbVEJs0rCPRtji3XF6ahzsiKmGNTeWLxCPDxWCjAIWq9t95xP3Y5Egi6Q==
+"@opensearch-project/opensearch@^2.7.0":
+  version "2.8.0"
+  resolved "https://registry.yarnpkg.com/@opensearch-project/opensearch/-/opensearch-2.8.0.tgz#df3fced3ffce2a053159b855c9f77b5bcb29bdb4"
+  integrity sha512-VgYq5WQCHHotUlk8fUXAkisCjeiw6eNKg/z9elBHuFnNVEUEhSzl3UAuPS3Y9TUd9uTvUbAZ8kkuA5y3Te9rsw==
   dependencies:
     aws4 "^1.11.0"
     debug "^4.3.1"
