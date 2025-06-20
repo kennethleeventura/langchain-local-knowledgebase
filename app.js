@@ -1,3 +1,4 @@
+import 'dotenv/config'
 import express from 'express'
 import http from 'http'
 import axios from 'axios'
@@ -32,13 +33,10 @@ import { createClient } from 'redis'
 import { Client } from '@opensearch-project/opensearch'
 import { OpenSearchVectorStore } from 'langchain/vectorstores/opensearch'
 
+
 const client = new Client({
   nodes: [process.env.OPENSEARCH_URL ?? 'http://127.0.0.1:9200'],
 })
-
-/* Load environment variables from .env file */
-import * as dotenv from 'dotenv'
-dotenv.config()
 
 /* Init Redis for cache */
 const clientRedis = createClient({
